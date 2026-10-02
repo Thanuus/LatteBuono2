@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latte Buono | Produtos Artesanais de Leite de Búfala</title>
+    <meta name="description" content="Latte Buono - Fazenda de criação de búfalos. Produtos artesanais feitos 100% com leite de búfala: queijos, manteiga, doce de leite, iogurtes e mais.">
+    <meta property="og:title" content="Latte Buono | Produtos Artesanais">
+    <meta property="og:description" content="Produtos artesanais feitos 100% com leite de búfala. Queijos, manteiga, doce de leite e mais.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/hero.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="images/logo-latte-buono.png">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header" id="header">
+        <div class="header-container">
+            <a href="#inicio" class="logo">
+                <img src="images/Logo.png" alt="Latte Buono - Produtos Artesanais" class="logo-img">
+                <span class="logo-text">Latte Buono</span>
+            </a>
+
+            <nav class="nav" id="nav">
+                <ul class="nav-list">
+                    <li><a href="#inicio" class="nav-link">Início</a></li>
+                    <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                    <li><a href="#como-funciona" class="nav-link">Como Funciona</a></li>
+                    <li><a href="#produtos" class="nav-link">Produtos</a></li>
+                    <li><a href="#contato" class="nav-link">Contato</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <button class="cart-btn" id="cartBtn" aria-label="Abrir carrinho">
+                    <svg class="cart-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <path d="M16 10a4 4 0 0 1-8 0"></path>
+                    </svg>
+                    <span class="cart-count" id="cartCount">0</span>
+                </button>
+
+                <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+        <div class="hero-bg">
+            <img src="images/hero.png" alt="Fazenda Latte Buono - Búfalos e produção artesanal" class="hero-img">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">Produtos Artesanais de Leite de Búfala</h1>
+            <p class="hero-subtitle">Queijos, doce de leite, gelatos e mais — feitos com tradição e cuidado na nossa fazenda</p>
+            <div class="hero-buttons">
+                <a href="#produtos" class="btn btn-primary">Conheça nossos produtos</a>
+                <a href="#sobre" class="btn btn-secondary">Nossa história</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>Role para descobrir</span>
+            <div class="scroll-indicator"></div>
+        </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="section sobre" id="sobre">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Nossa Essência</span>
+                <h2 class="section-title">Sobre a Latte Buono</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="sobre-grid">
+                <div class="sobre-content">
+                    <p class="sobre-text">
+                        A <strong>Latte Buono</strong> é uma fazenda de criação de búfalos dedicada à produção de 
+                        produtos artesanais de alta qualidade. Localizada no coração do campo, nossa propriedade 
+                        combina tradição e cuidado para oferecer o melhor do leite de búfala.
+                    </p>
+                    <p class="sobre-text">
+                        Todos os nossos produtos são feitos <strong>100% com leite de búfala</strong>, seguindo 
+                        processos artesanais que respeitam o tempo e a natureza. Do queijo ao doce de leite, 
+                        cada item é preparado com dedicação para garantir sabor e qualidade excepcionais.
+                    </p>
+                    <p class="sobre-text">
+                        Nossa paixão é proporcionar a você e sua família produtos autênticos, feitos com o 
+                        carinho e a tradição que só uma fazenda familiar pode oferecer.
+                    </p>
+                    <div class="sobre-features">
+                        <div class="feature">
+                            <div class="feature-icon">🐃</div>
+                            <span>100% Leite de Búfala</span>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">🧀</div>
+                            <span>Produção Artesanal</span>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">🌿</div>
+                            <span>Origem Rural</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="sobre-image">
+                    <img src="images/Eduardo_e_Monica.jpg" alt="Fazenda Latte Buono - Búfalos no pasto" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- COMO FUNCIONA -->
+    <section class="section como-funciona" id="como-funciona">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Processo</span>
+                <h2 class="section-title">Como Funciona</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="steps-grid">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3 class="step-title">Escolha seus produtos</h3>
+                    <p class="step-desc">Monte seu pedido diretamente pelo site, selecionando seus produtos favoritos.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3 class="step-title">Envie seu pedido</h3>
+                    <p class="step-desc">Após montar seu pedido, envie pelo WhatsApp com seus dados de entrega.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3 class="step-title">Produção</h3>
+                    <p class="step-desc">Os produtos são preparados durante a semana, garantindo frescor e qualidade.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3 class="step-title">Conferência</h3>
+                    <p class="step-desc">Produtos com peso variável são pesados e o valor final é confirmado.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">5</div>
+                    <h3 class="step-title">Entrega</h3>
+                    <p class="step-desc">A entrega é combinada com o cliente e a taxa correspondente é informada.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRODUTOS -->
+    <section class="section produtos" id="produtos">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Catálogo</span>
+                <h2 class="section-title">Nossos Produtos</h2>
+                <div class="section-divider"></div>
+                <p class="section-desc">
+                    Produtos artesanais feitos com leite de búfala. Selecione seus favoritos e monte seu pedido.
+                </p>
+            </div>
+
+            <div class="products-grid" id="productsGrid">
+                <!-- Produtos serão inseridos via JavaScript -->
+            </div>
+
+            <div class="products-notice">
+                <p>
+                    <strong>Importante:</strong> Produtos artesanais podem apresentar variação de peso.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- AVISO PEDIDOS ANTECIPADOS -->
+    <section class="section aviso">
+        <div class="container">
+            <div class="aviso-box">
+                <div class="aviso-icon">📅</div>
+                <h3 class="aviso-title">Peça com antecedência</h3>
+                <p class="aviso-text">
+                    Para garantir a disponibilidade e manter a qualidade dos produtos, trabalhamos com 
+                    pedidos realizados antecipadamente.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALERIA -->
+    <section class="section galeria">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Galeria</span>
+                <h2 class="section-title">Nossa Fazenda e Produtos</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="images/Mesa_visitacao.jpg" alt="Búfalos da Fazenda Latte Buono" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/queijo.jpg" alt="Queijo artesanal Latte Buono" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/Mesa_visitacao_2.jpg" alt="Processo de produção artesanal" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/camara_de_maturacao.png" alt="Doce de leite artesanal" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/iogurte.jpg" alt="Manteiga artesanal de leite de búfala" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/mesa.png" alt="Iogurte artesanal de leite de búfala" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="section contato" id="contato">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Contato</span>
+                <h2 class="section-title">Fale Conosco</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="contato-grid">
+                <div class="contato-info">
+                    <p class="contato-text">
+                        Tem alguma dúvida ou quer saber mais sobre nossos produtos? 
+                        Entre em contato conosco pelas nossas redes sociais.
+                    </p>
+                    <div class="contato-links">
+                        <a href="https://www.instagram.com/lattebuono/" target="_blank" rel="noopener" class="contato-link">
+                            <svg viewBox="0 0 24 24" fill="currentColor" class="contato-icon">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                            <span>Instagram</span>
+                        </a>
+                        <a href="https://wa.me/5524999405665" target="_blank" rel="noopener" class="contato-link">
+                            <svg viewBox="0 0 24 24" fill="currentColor" class="contato-icon">
+                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                            </svg>
+                            <span>WhatsApp</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="contato-image">
+                    <img src="images/feira_eduardo_e_monica.jpg" alt="Produção artesanal Latte Buono" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="images/Logo.png" alt="Latte Buono" class="footer-logo">
+                    <p class="footer-desc">
+                        Produtos artesanais feitos 100% com leite de búfala. 
+                        Tradição, qualidade e sabor em cada produto.
+                    </p>
+                </div>
+                <div class="footer-links">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#produtos">Produtos</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Redes Sociais</h4>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/lattebuono/" target="_blank" rel="noopener" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                        </a>
+                        <a href="https://wa.me/5524999405665" target="_blank" rel="noopener" aria-label="WhatsApp">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Latte Buono. Todos os direitos reservados.</p>
+                <a href="admin.html" style="color: inherit; opacity: 0.6; font-size: 0.85rem;">Gerenciar produtos</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- CARRINHO LATERAL -->
+    <div class="cart-overlay" id="cartOverlay"></div>
+    <aside class="cart-sidebar" id="cartSidebar" aria-label="Carrinho de compras">
+        <div class="cart-header">
+            <h3>Seu Pedido</h3>
+            <button class="cart-close" id="cartClose" aria-label="Fechar carrinho">&times;</button>
+        </div>
+
+        <div class="cart-items" id="cartItems">
+            <!-- Itens do carrinho serão inseridos via JavaScript -->
+        </div>
+
+        <div class="cart-footer" id="cartFooter">
+            <div class="cart-subtotal">
+                <span>Subtotal:</span>
+                <strong id="cartSubtotal">R$ 0,00</strong>
+            </div>
+            <p class="cart-note">Taxa de entrega: será informada posteriormente.</p>
+            <button class="btn btn-primary btn-full" id="checkoutBtn" disabled>
+                Finalizar Pedido
+            </button>
+        </div>
+    </aside>
+
+    <!-- MODAL DE PEDIDO -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+            <div class="modal-header">
+                <h3 id="modalTitle">Finalizar Pedido</h3>
+                <button class="modal-close" id="modalClose" aria-label="Fechar">&times;</button>
+            </div>
+
+            <div class="modal-body">
+                <!-- Resumo do Pedido -->
+                <div class="order-summary" id="orderSummary">
+                    <h4>Resumo do Pedido</h4>
+                    <div class="order-items" id="orderItems"></div>
+                    <div class="order-total">
+                        <span>Subtotal:</span>
+                        <strong id="orderSubtotal">R$ 0,00</strong>
+                    </div>
+                    <p class="order-note">Taxa de entrega: será informada posteriormente.</p>
+                </div>
+
+                <!-- Formulário -->
+                <form class="order-form" id="orderForm">
+                    <h4>Dados para Entrega</h4>
+                    
+                    <div class="form-group">
+                        <label for="nome">Nome completo *</label>
+                        <input type="text" id="nome" name="nome" required placeholder="Seu nome">
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="cep">CEP *</label>
+                            <input type="text" id="cep" name="cep" required placeholder="00000-000" maxlength="9">
+                        </div>
+                        <div class="form-group">
+                            <label for="cidade">Cidade *</label>
+                            <input type="text" id="cidade" name="cidade" required placeholder="Cidade">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="rua">Rua *</label>
+                            <input type="text" id="rua" name="rua" required placeholder="Nome da rua">
+                        </div>
+                        <div class="form-group">
+                            <label for="numero">Número *</label>
+                            <input type="text" id="numero" name="numero" required placeholder="Nº">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="bairro">Bairro *</label>
+                            <input type="text" id="bairro" name="bairro" required placeholder="Bairro">
+                        </div>
+                        <div class="form-group">
+                            <label for="complemento">Complemento</label>
+                            <input type="text" id="complemento" name="complemento" placeholder="Apto, bloco, etc.">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="observacao">Observação</label>
+                        <textarea id="observacao" name="observacao" rows="3" placeholder="Ex: Entregar depois das 18h, casa com portão azul..."></textarea>
+                    </div>
+                </form>
+            </div>
+
+            <div class="modal-footer">
+                <button class="btn btn-secondary" id="backToCart">Voltar</button>
+                <button class="btn btn-primary" id="sendOrder">Enviar pedido</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL DE CONFIRMAÇÃO DE PAGAMENTO (PIX) -->
+    <div class="modal-overlay" id="paymentOverlay">
+        <div class="modal" role="dialog" aria-modal="true" aria-labelledby="paymentTitle">
+            <div class="modal-header">
+                <h3 id="paymentTitle">Pedido registrado!</h3>
+                <button class="modal-close" id="paymentClose" aria-label="Fechar">&times;</button>
+            </div>
+
+            <div class="modal-body">
+                <div class="payment-summary">
+                    <span class="payment-label">Total do pedido</span>
+                    <strong class="payment-total" id="paymentTotal">R$ 0,00</strong>
+                </div>
+
+                <div class="pix-box">
+                    <div class="pix-box-header">
+                        <span class="pix-icon" aria-hidden="true">📱</span>
+                        <h4>Pagamento via Pix</h4>
+                    </div>
+                    <p class="pix-text">Faça o pagamento utilizando a chave Pix abaixo:</p>
+                    <div class="pix-key-row">
+                        <code class="pix-key" id="pixKeyDisplay">24999405665</code>
+                        <button class="btn btn-primary btn-copy" id="copyPixBtn" type="button">Copiar chave Pix</button>
+                    </div>
+                    <p class="pix-hint">Chave Pix (telefone)</p>
+                    <p class="pix-recipient">Recebedor: <strong id="pixRecipientDisplay">Thanus Raposo</strong></p>
+                    <p class="pix-copy-feedback" id="copyFeedback">Chave Pix copiada!</p>
+                </div>
+
+                <p class="payment-instruction">
+                    Depois de realizar o pagamento, envie o comprovante pelo WhatsApp para confirmar o pedido.
+                </p>
+            </div>
+
+            <div class="modal-footer">
+                <button class="btn btn-outline-dark" id="paymentCloseBtn">Fechar</button>
+                <button class="btn btn-whatsapp" id="sendProofBtn">
+                    Enviar comprovante pelo WhatsApp
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- BOTÃO FLUTUANTE DO CARRINHO (Mobile) -->
+    <button class="cart-fab" id="cartFab" aria-label="Ver carrinho">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <path d="M16 10a4 4 0 0 1-8 0"></path>
+        </svg>
+        <span class="fab-count" id="fabCount">0</span>
+    </button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
