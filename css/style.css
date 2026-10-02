@@ -1631,7 +1631,7 @@ input, textarea {
 }
 
 .btn-outline-dark {
-    background: transparent;
+    background: var(--color-white);
     color: var(--color-primary);
     border-color: var(--color-primary);
 }
